@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main()
+{
+	setlocale(LC_CTYPE, "RUS");
+	int n = 20;
+	int L = 3;
+	puts("Дано");
+	printf("\n\t\t %d ", n);
+	printf("\n\t\t %d ", L);
+	puts("\n               _______");
+	printf("\nЦелое число     %+i", n/L);
+	printf("\nНецелое число   %+e", n / L);
+}
