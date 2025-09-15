@@ -1,0 +1,16 @@
+#include <stdio.h>
+void main()
+{
+	printf("\n");
+	printf("      _____________        \n");
+	printf("     /             \\      \n");
+	printf("    /               \\     \n");
+	printf("   /_________________\\    \n");
+	printf("   |   ____    ____  |     \n");
+	printf("   |   |  |    |  |  |     \n");
+	printf("   |   |__|    |__|  |     \n");
+	printf("   |                 |     \n");
+	printf("   |________________ |     \n");
+	return 0;
+
+}
