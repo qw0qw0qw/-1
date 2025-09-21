@@ -1,0 +1,10 @@
+#include <locale.h>
+#include <stdio.h>
+void main()
+{
+	setlocale(LC_ALL, "RUS");
+	puts("Ìîÿ ïðîãðàììà");
+	puts("Íàæìèòå Enter äëÿ ïðîäîëæåíèÿ...");
+	getchar();
+	puts("Hello world!");
+}
