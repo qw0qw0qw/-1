@@ -1,0 +1,25 @@
+#include <locale.h>
+#include <stdio.h>
+
+void main()
+{
+	setlocale(LC_ALL, "RUS");
+	puts("   __   __     __   ___    __  __    ");
+	puts("   __| |__    |  |    |   |  |   |   ");
+	puts("  |__  |__|.  |__|    | . |__|   |   ");
+	getchar();
+}
+void date()
+{
+	setlocale(LC_ALL, "RUS");
+	puts("");
+	puts("");
+	puts("     * * * * * * * * * * * * * * * * * * * * * *");
+	puts("     *                                         *");
+	puts("     * тема: Разработка консольного приложения *");
+	puts("     *                                         *");
+	puts("     *    Выполнил Бондарев А.Ю.               *");
+	puts("     *                                         *");
+	puts("     * * * * * * * * * * * * * * * * * * * * * *");
+	getchar();
+}
